@@ -6,15 +6,19 @@ function NavBar() {
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <Link className="navbar-item" to="/">
-                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
+                <Link to="/">
+                    <h1 className="logo">Il Lapis</h1>
                 </Link>
             </div>
         
             <div id="navbarBasicExample" className="navbar-menu">
 
                 <div className="navbar-start">
-                    <NavLink to='productos' className="navbar-item navBarTitle">Productos</NavLink>
+                    <NavLink to='productos' className="navbar-item navBarTitle">Minerales</NavLink>
+                    <NavLink to='productos' className="navbar-item navBarTitle">Decorativas</NavLink>
+                    <NavLink to='productos' className="navbar-item navBarTitle">Curativas</NavLink>
+                    <NavLink to='productos' className="navbar-item navBarTitle">De Energia</NavLink>
+                    <NavLink to='productos' className="navbar-item navBarTitle">Curiosidades</NavLink>
                 </div>
 
                 <div className="navbar-end">

@@ -45,6 +45,17 @@ body {
     background-color: var(--clr-main-dark);
 }
 
+.logo {
+    font-size: 2rem;
+    color: var(--clr-main);
+    padding: 1rem;
+    background-color: #26532B;
+}
+
+.logo:hover {
+    text-shadow: 6px 6px 20px var(--clr-main); 
+}
+
 .navBarTitle {
     font-size: 2rem;
     color: var(--clr-main);
