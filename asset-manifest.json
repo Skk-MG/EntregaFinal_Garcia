@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/PreEntrega2_Garcia/static/css/main.84b14b4c.css",
+    "main.js": "/PreEntrega2_Garcia/static/js/main.16f8714d.js",
+    "static/media/1.png": "/PreEntrega2_Garcia/static/media/1.7644c69969f468238812.png",
+    "static/media/2.png": "/PreEntrega2_Garcia/static/media/2.b407f7961367d0df51ef.png",
+    "static/media/5.png": "/PreEntrega2_Garcia/static/media/5.94aa0f83eb3117658b58.png",
+    "static/media/4.png": "/PreEntrega2_Garcia/static/media/4.8f399129f59025791a1e.png",
+    "static/media/3.png": "/PreEntrega2_Garcia/static/media/3.c7d8b996aa8914e7dc9c.png",
+    "index.html": "/PreEntrega2_Garcia/index.html",
+    "static/media/cart.svg": "/PreEntrega2_Garcia/static/media/cart.c2c12d233256cff360b0f66a8088cd97.svg",
+    "main.84b14b4c.css.map": "/PreEntrega2_Garcia/static/css/main.84b14b4c.css.map",
+    "main.16f8714d.js.map": "/PreEntrega2_Garcia/static/js/main.16f8714d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84b14b4c.css",
+    "static/js/main.16f8714d.js"
+  ]
+}
