@@ -1,0 +1,120 @@
+/* Reset CSS & Variables */
+:root {
+    --clr-main: #faedcd;
+    --clr-main-dark: #d4a373;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* ----------------------------------- */
+
+body {
+    background-color: var(--clr-main-dark);
+}
+
+.itemCount {
+    display: grid;
+    place-items: center;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin: 2rem 0;
+}
+
+.navbar {
+    background-color: var(--clr-main-dark);
+}
+
+.navBarTitle {
+    font-size: 2rem;
+    color: var(--clr-main);
+}
+
+.carrito {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: var(--clr-main);
+    border-radius: 50%;
+}
+
+.numeroCarrito {
+    background-color: var(--clr-main-dark);
+    font-weight: bold;
+    padding: 0.15rem 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: rgb(39, 84, 44, 0.9);
+    color: var(--clr-main);
+}
+
+.productContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--clr-main);
+    color: var(--clr-main-dark);
+    padding: 0.5rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    gap: 0.25rem;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    color: var(--clr-main-dark);
+}
+
+.title {
+    color: var(--clr-main-dark);
+}
+
+.detailContainer {
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.productDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--clr-main);
+    color: var(--clr-main-dark);
+    padding: 0.5rem;
+    gap: 0.25rem;
+    border-radius: 1rem;
+}
