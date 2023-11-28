@@ -7,18 +7,22 @@ function NavBar() {
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <Link to="/">
-                    <h1 className="logo">Il Lapis</h1>
+                    <h1 className="logo">Das-Teck</h1>
                 </Link>
             </div>
         
             <div id="navbarBasicExample" className="navbar-menu">
 
                 <div className="navbar-start">
-                    <NavLink to='productos' className="navbar-item navBarTitle">Minerales</NavLink>
-                    <NavLink to='productos' className="navbar-item navBarTitle">Decorativas</NavLink>
-                    <NavLink to='productos' className="navbar-item navBarTitle">Curativas</NavLink>
-                    <NavLink to='productos' className="navbar-item navBarTitle">De Energia</NavLink>
-                    <NavLink to='productos' className="navbar-item navBarTitle">Curiosidades</NavLink>
+                    <Link to={`/categoria/Xiaomi`} className="navbar-item navBarTitle">Xiaomi</Link>
+            
+                    <Link to={`/categoria/Iphone`} className="navbar-item navBarTitle">Iphone</Link>
+
+                    <Link to={`/categoria/Motorola`} className="navbar-item navBarTitle">Motorola</Link>
+
+                    <Link to={`/categoria/Samsung`} className="navbar-item navBarTitle">Samsung</Link>
+
+                    <Link to={`/categoria/Varios`} className="navbar-item navBarTitle">Varios</Link>
                 </div>
 
                 <div className="navbar-end">

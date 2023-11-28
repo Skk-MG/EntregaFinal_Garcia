@@ -1,10 +1,9 @@
 import "bulma/css/bulma.css";
 import './components/styles.css';
-import NavBar from "./components/NavBar";
-import Productos from "./components/Productos";
-import DetalleProducto from "./components/DetalleProducto";
-import CategoriaProductos from "./components/CategoriaProductos";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import ItemListContainer from './components/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer';
 
 function App() {
     
@@ -13,11 +12,10 @@ function App() {
             <BrowserRouter>
                 <NavBar />
                 <Routes>
-                    <Route path='/' element={<Productos/>}/>
-                    <Route path='productos' element={<Productos/>}/>
-                    <Route path='productos/:productoId' element={<DetalleProducto />}/>
-                    <Route path='productos/:categoriaId' element={<CategoriaProductos />}/>
-                    <Route path='*' element={<h1>404</h1>}/>
+                    <Route path="/" element={<ItemListContainer />}/>
+                    <Route path="/categoria/:categoryId" element={<ItemListContainer />}/>
+                    <Route path="/item/:itemId" element={ <ItemDetailContainer />}/>
+                    <Route path="*" element={<h1 className="title is-1">Error 404 Pagina no Encontrada</h1>}/>
                 </Routes>
             </BrowserRouter>
         </div>
