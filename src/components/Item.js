@@ -1,30 +1,27 @@
 import { Link } from "react-router-dom";
 
-function Item( {id, nombre, img, precio, stock} ) {
+
+const Item = ( {producto} ) => {
     
     return (
-        <article className="productDetail">
-            <header>
-                <h2 className='title is-4 has-text-light'> {nombre} </h2>
-            </header>
+        <div className="producto">
+            
+            <img src={producto.img} alt={producto.nombre}/>
+            
+            <div className="descripcionProducto">
+                <div className="containerNombre">
+                    <h2 className="nombreProducto"> {producto.nombre} </h2>
+                </div>
+                <p className="detallesProducto"><span className="detalleExtra">Precio:</span> ${producto.precio}</p>
+                <p className="detallesProducto"><span className="detalleExtra">Stock disponible:</span> {producto.stock}</p>
+                <p className="detallesProducto"><span className="detalleExtra">Categoria:</span> {producto.categoria}</p>
 
-            <div>
-                <img className="cardImg" src={img} alt={nombre}/>
             </div>
 
-            <section className="media-content">
-                <p className='subtitle is-4 has-text-light'>
-                    Precio: ${precio}
-                </p>
-                <p className='subtitle is-4 has-text-light'>
-                    Stock disponible: {stock}
-                </p>
-            </section>
-
-            <footer>
-                <Link to={`/item/${id}`} className="button">Ver Detalle</Link>
-            </footer>
-        </article>
+            <div className="containerBoton">
+                <Link className="ver-mas" to={`/item/${producto.id}`}>Ver Detalle</Link>
+            </div>
+        </div>
     )
 }
 

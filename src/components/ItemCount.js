@@ -1,29 +1,18 @@
-import { useState } from "react";
+import { FaPlus } from "react-icons/fa6";
+import { FaMinus } from "react-icons/fa";
 
-function ItemCount( {stock, initial, onAdd} ) {
-    const [quantity, setQuantity] = useState(initial)
 
-    function increment() {
-        if (quantity < stock) {
-            setQuantity( quantity + 1 )
-        }
-    }
-
-    function decrement() {
-        if (quantity > 1) {
-            setQuantity( quantity - 1 )
-        }
-    }
+const ItemCount = ( {cantidad, handleRestar, handleSumar, handleAgregar} ) => {
 
     return (
-        <div className="itemCount">
-            <div className="botones">
-                <button className="button" onClick={decrement}>-</button>
-                <h4 className="itemNumero"> {quantity} </h4>
-                <button className="button" onClick={increment}>+</button>
+        <div>
+            <div className="item-count">
+                <button onClick={handleRestar}><FaMinus /></button>
+                <h4 className="cantidadItem"> {cantidad} </h4>
+                <button onClick={handleSumar}><FaPlus /></button>
             </div>
             <div>
-                <button className="button" onClick={() => onAdd(quantity)} disabled={!stock}>Agregar al Carrito</button>
+                <button className="agregar-al-carrito" onClick={handleAgregar}>Agregar al carrito</button>
             </div>
         </div>
     )

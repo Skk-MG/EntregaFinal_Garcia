@@ -1,13 +1,21 @@
-import cart from './assets/cart.svg';
+import { BsCart } from "react-icons/bs";
+import { useContext } from "react";
+import { CartContext } from '../context/CartContext'
+import { Link } from "react-router-dom";
 
-function Carrito() {
+
+function CartWidget() {
+
+    const { cantidadEnCarrito } = useContext(CartContext)
 
     return (
-        <div className='carrito'>
-            <img src={cart} alt='cart-widget' />
-            <span className='numeroCarrito'>5</span>
+        <div>
+            <Link className="carrito" to='/cart'>
+                <BsCart/>
+                <span className="numerito">{cantidadEnCarrito()}</span>
+            </Link>
         </div>
     )
 }
 
-export default Carrito;
+export default CartWidget;

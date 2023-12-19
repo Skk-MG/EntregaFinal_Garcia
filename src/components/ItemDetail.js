@@ -1,33 +1,45 @@
 import ItemCount from "./ItemCount";
+import { useContext, useState } from "react";
+import { CartContext } from '../context/CartContext'
 
-function ItemDetail( {id, nombre, img, categoria, descripcion, precio, stock } ) {
+
+const ItemDetail = ( {item} ) => {
+
+    const { carrito, agregarAlCarrito } = useContext(CartContext);
+    console.log(carrito);
+
+    const  [cantidad, setCantidad] = useState(1);
     
+    const handleRestar = () => {
+        cantidad > 1 && setCantidad(cantidad - 1);
+    }
+
+    const handleSumar = () => {
+        cantidad < item.stock && setCantidad(cantidad + 1);
+    }
+
     return (
-        <article className="productDetail">
-            <header>
-                <h2 className='title is-4 has-text-light'> {nombre} </h2>
-            </header>
+        <div className="container">
+            <div className="producto-detalle">
 
-            <div>
-                <img className="cardImg" src={img} alt={nombre} />
+                <img src={item.img} alt={item.nombre} />
+
+                <div>         
+                    <h2 className="titulo"> {item.nombre} </h2>
+                    <p className="descripcion"><span className="detalleExtra">Descripcion:</span> {item.descripcion}</p>
+                    <p className="categoria">Categoria: {item.categoria} </p>
+                    <p className="precio"><span className="detalleExtra">Precio:</span> ${item.precio}</p>
+                  
+                    <ItemCount
+                    cantidad={cantidad}
+                    handleSumar={handleSumar}
+                    handleRestar={handleRestar}
+                    handleAgregar={() => { agregarAlCarrito(item, cantidad) }}
+                    />
+                </div>
+
             </div>
-
-            <section>
-                <p className='subtitle is-4 has-text-light'>
-                    Categoria: {categoria}
-                </p>
-                <p className='subtitle is-4 has-text-light'>
-                    Descripcion: {descripcion}
-                </p>
-                <p className='subtitle is-4 has-text-light'>
-                    Precio: ${precio}
-                </p>
-            </section>
-
-            <footer>
-                <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log('Cantidad agregada: ', quantity)}/>
-            </footer>
-        </article>
+        </div>
     )
 }
 

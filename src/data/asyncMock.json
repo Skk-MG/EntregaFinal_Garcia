@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "nombre": "Xiaomi Redmi 9A Verde",
+        "precio": 90000,
+        "categoria": "Xiaomi",
+        "img": "http://dummyimage.com/x.png/cc0000/ffffff",
+        "stock": 60,
+        "descripcion": "Todo lo que necesitás Su memoria RAM de 2 GB es justo lo que necesitás para utilizar las funciones más importantes como llamar, enviar mensajes, navegar y ejecutar aplicaciones de uso frecuente como redes sociales o multimedia. Reconocimiento facial para mayor seguridad Acercá el dispositivo a tu rostro para desbloquearlo instantáneamente. Su precisa tecnología de reconocimiento facial te garantiza un acceso al equipo rápido y seguro.  Batería de duración superior ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.  El espacio que necesitás Con su memoria interna de 32 GB descargá tus aplicaciones favoritas y guardá todas las fotos y videos que quieras."
+    },
+    {
+        "id": 2,
+        "nombre": "Xiaomi Pocophone M4 Pro",
+        "precio": 290000,
+        "categoria": "Xiaomi",
+        "img": "http://dummyimage.com/x.png/ff4444/ffffff",
+        "stock": 10,
+        "descripcion": "Capacidad y eficiencia Con su potente procesador y memoria RAM de 6 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutar múltiples aplicaciones a la vez sin demoras. Desbloqueo facial y dactilar Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido. Batería de duración superior ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realiza recargas.  Gran capacidad de almacenamiento Con su memoria interna de 128 GB podrás almacenar archivos y aplicaciones de gran tamaño sin necesidad de subirlos a la nube y aprovechar tusmomen sin conexión para darles el máximo uso."
+    },
+    {
+        "id": 3,
+        "nombre": "Xiaomi Redmi 12C",
+        "precio": 140000,
+        "categoria": "Xiaomi",
+        "img": "http://dummyimage.com/x.png/5fa2dd/ffffff",
+        "stock": 50,
+        "descripcion": "Mayor rendimiento Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar. Desbloqueo facial y dactilar Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido. Batería de duración superior ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realiza recargas. Gran capacidad de almacenamiento Con su memoria interna de 128 GB podrás almacenar archivos y aplicaciones de gran tamaño sin necesidad de subirlos a la nube y aprovechar tus momentos sin conexión para darles el máximo uso."
+    },
+    {
+        "id": 4,
+        "nombre": "Xiaomi Redmi Note 10",
+        "precio": 230000,
+        "categoria": "Xiaomi",
+        "img": "http://dummyimage.com/x.png/5fa2dd/ffffff",
+        "stock": 7,
+        "descripcion": "Con el Xiaomi Redmi Note 10 5G, disfruta de una experiencia móvil de alta velocidad y rendimiento gracias a su conectividad 5G y su potente procesador MediaTek MT6853 Dimensity 700 de 2.2 GHz con 8 núcleos. Este smartphone cuenta con una memoria interna de 128 GB y 4 GB de RAM, lo que te permite almacenar tus fotos, videos y aplicaciones sin preocupaciones. Este elegante smartphone en color gris grafito es compatible con Dual SIM, lo que te permite tener dos líneas telefónicas en un mismo dispositivo. Lanzado en 2021, el Xiaomi Redmi Note 10 5G es la opción ideal para aquellos que buscan un celular moderno, potente y con las últimas tecnologías en el mercado argentino."
+    },
+    {
+        "id": 5,
+        "nombre": "Xiaomi Mi 11 Lite",
+        "precio": 340000,
+        "categoria": "Xiaomi",
+        "img": "http://dummyimage.com/x.png/dddddd/000000",
+        "stock": 15,
+        "descripcion": "Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla AMOLED de 6.55. Disfrutá de colores brillantes y detalle precisos en todos tus contenidos. Capacidad y eficiencia Con su potente procesador y memoria RAM de 8 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutar múltiples aplicaciones a la vez sin demoras. Desbloqueo facial y dactilar Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido. Batería de duración superior ¡Desenchufate! Con la súper batería de 4250 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas."
+    },
+
+    {
+        "id": 6,
+        "nombre": "Apple iPhone 12",
+        "precio": 1000000,
+        "categoria": "Iphone",
+        "img": "http://dummyimage.com/x.png/dddddd/000000",
+        "stock": 4,
+        "descripcion": "El iPhone 12 tiene una espectacular pantalla Super Retina XDR de 6.1 pulgadas (1). Un frente de Ceramic Shield, cuatro veces más resistente a las caídas (2). Modo Noche en todas las cámaras, para que puedas tomar fotos increíbles con poca luz. Grabación, edición y reproducción de video en Dolby Vision con calidad cinematográfica. Y el potente chip A14 Bionic. Además, es compatible con los nuevos accesorios MagSafe, que se acoplan fácilmente a tu iPhone y permiten una carga inalámbrica más rápida (3). Que comience la diversión."
+    },
+    {
+        "id": 7,
+        "nombre": "iPhone 6s",
+        "precio": 170000,
+        "categoria": "Iphone",
+        "img": "http://dummyimage.com/x.png/cc0000/ffffff",
+        "stock": 10,
+        "descripcion": "Momentos únicos, capturas reales Capturá tus mejores momentos y revivilos cuando quieras con la cámara trasera de 12 Mpx. Además, el dispositivo cuenta con cámara frontal de 5 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas. Más para ver Con su pantalla IPS de 4.7, disfrutá de colores intensos y mayor nitidez en todos tus contenidos. Todo lo que necesitás Su memoria RAM de 2 GB es justo lo que necesitás para utilizar las funciones más importantes como llamar, enviar mensajes, navegar y ejecuta aplicaciones de uso frecuente como redes sociales o multimedia. Desbloqueo veloz con tu huella dactilar Con el sensor de huella dactilar, el acceso es seguro y podrás desbloquearlo automáticamente con un toque. El espacio que necesitás Con su memoria interna de 32 GB descargá tus aplicaciones favoritas y guardá todas las fotos y videos que quieras."
+    },
+
+    {
+        "id": 8,
+        "nombre": "Moto E22",
+        "precio": 96000,
+        "categoria": "Motorola",
+        "img": "http://dummyimage.com/x.png/ff4444/ffffff",
+        "stock": 80,
+        "descripcion": "Mayor rendimiento Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar. Gran capacidad de almacenamiento Con su memoria interna de 64 GB siempre tendrás espacio para almacenar archivos y documentos importantes. Además, podrás guardar películas, series  videos para reproducirlos cuando quieras sin conexión."
+    },
+    {
+        "id": 9,
+        "nombre": "Motorola Edge 30 Ultra",
+        "precio": 500000,
+        "categoria": "Motorola",
+        "img": "http://dummyimage.com/x.png/ff4444/ffffff",
+        "stock": 9,
+        "descripcion": "Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación diferentes planos y efectos para obtener grandes resultados. Además, el dispositivo cuenta con cámara frontal de 60 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas. Capacidad y eficiencia Con su potente procesador y memoria RAM de 12 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutar múltiples aplicaciones a la vez sin demoras."
+    },
+    {
+        "id": 10,
+        "nombre": "Moto G72",
+        "precio": 256000,
+        "categoria": "Motorola",
+        "img": "http://dummyimage.com/x.png/dddddd/000000",
+        "stock": 30,
+        "descripcion": "Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación diferentes planos y efectos para obtener grandes resultados. Además, el dispositivo cuenta con cámara frontal de 16 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas. Capacidad y eficiencia Con su potente procesador y memoria RAM de 6 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutar múltiples aplicaciones a la vez sin demoras."
+    },
+    {
+        "id": 11,
+        "nombre": "Motorola Edge 40",
+        "precio": 440000,
+        "categoria": "Motorola",
+        "img": "http://dummyimage.com/x.png/5fa2dd/ffffff",
+        "stock": 7,
+        "descripcion": "Doble cámara y más detalles Sus 2 cámaras traseras de 50 Mpx/13 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poc profundidad de campo. Además, el dispositivo cuenta con cámara frontal de 32 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas. Más para ver Con su pantalla pOLED de 6.55, disfrutá de colores intensos y mayor nitidez en todos tus contenidos. Capacidad y eficiencia Con su potente procesador y memoria RAM de 8 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutar múltiples aplicaciones a la vez sin demoras  Capacidad de almacenamiento ilimitada Olvidate de borrar. Con su memoria interna de 256 GB podrás descargar todos los archivos y aplicaciones que necesites, guardar fotos y almacenar tu películas, series y videos favoritos para reproducirlos cuando quieras."
+    },
+
+    {
+        "id": 12,
+        "nombre": "Samsung Galaxy A54",
+        "precio": 396000,
+        "categoria": "Samsung",
+        "img": "http://dummyimage.com/x.png/cc0000/ffffff",
+        "stock": 3,
+        "descripcion": "Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación diferentes planos y efectos para obtener grandes resultados. Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla Super AMOLED de 6.4. Disfrutá de colores brillantes y detalle precisos en todos tus contenidos. Capacidad y eficiencia Con su potente procesador y memoria RAM de 8 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutar múltiples aplicaciones a la vez sin demoras."
+    },
+    {
+        "id": 13,
+        "nombre": "Samsung S21",
+        "precio": 300000,
+        "categoria": "Samsung",
+        "img": "http://dummyimage.com/x.png/5fa2dd/ffffff",
+        "stock": 47,
+        "descripcion": "El Samsung Galaxy S21 es la edición para fanáticos de la serie Galaxy S21. Se trata de un smartphone Android con una pantalla AMOLED FHD+ de 6.4 pulgadas con tasa de refresco de 120Hz. El Galaxy S21 FE llega en dos variantes: una con procesador Snapdragon 888 - para USA y Europa - y otra con chip Exynos 2100 - para mercados asiáticos - con 6GB o 8GB de RAM y 128GB o 256GB de almacenamiento interno. El conjunto de cámaras dorsal del Galaxy S21 FE consta de un sensor de 12MP con OIS, una cámara ultrawide de 12MP, y una cámara telefoto de 8MP con OIS, mientras que la cámara selfie es de 32MP. Alimentado por una batería de 4500 mAh de carga rápida, el Galaxy S21 admite carga inalámbrica, cuenta con lector de huellas debajo de la pantalla, y llega con One UI 4 basado en Android 12 de fábrica."
+    },
+
+    {
+        "id": 14,
+        "nombre": "Auriculares Manos Libres In-ear",
+        "precio": 4500,
+        "categoria": "Varios",
+        "img": "http://dummyimage.com/x.png/cc0000/ffffff",
+        "stock": 400,
+        "descripcion": "Calidad. Su diseño in-ear brinda comodidad y un ajuste seguro, y la tecnología Bluetooth 5 permite una fácil conexión a dispositivos. Tienen un alcance inalámbrico de 10 metros, lo que proporciona libertad de movimiento.  La duración de la batería de los auriculares es de 5 horas, y el estuche de carga de 1200 mAh permite recargarlos varias veces. La tecnología TWS garantiza un sonido estéreo sin cables.  Cuentan con micrófono incorporado y modo manos libres para atender llamadas sin sacar el teléfono del bolsillo. La cancelación de ruido asegura una conversación clara incluso en entornos ruidosos. Además, son resistentes al agua con una clasificación IPX5, adecuados para el gimnasio o días lluviosos."
+    },
+    {
+        "id": 15,
+        "nombre": "Anillo Para Celular Ringo Soporte",
+        "precio": 1800,
+        "categoria": "Varios",
+        "img": "http://dummyimage.com/x.png/5fa2dd/ffffff",
+        "stock": 90,
+        "descripcion": "Un anillo para celular Ringo es un accesorio compacto y versátil que se adhiere al teléfono. Viene en varios colores atractivos y está hecho de materiales duraderos. Su característica principal es funcionar como soporte y agarre, permitiendo ver contenido y sostener el teléfono con comodidad. También gira 360 grados y se adhiere de forma segura al dispositivo."
+    },
+    {
+        "id": 16,
+        "nombre": "Soporte Apoya Celular Extensible",
+        "precio": 3100,
+        "categoria": "Varios",
+        "img": "http://dummyimage.com/x.png/ff4444/ffffff",
+        "stock": 150,
+        "descripcion": "CARACTERISTICAS: - Soporte Apoya Celular Extensible Flexible Escritorio Selfie - MEDIDAS: - largo :26cm-36cm - ancho; 11.5cm"
+    }
+]

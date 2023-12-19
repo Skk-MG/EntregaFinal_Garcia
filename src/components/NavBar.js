@@ -1,36 +1,22 @@
 import CartWidget from "./CartWidget";
+import { FaReact } from "react-icons/fa";
 import { NavLink, Link } from "react-router-dom";
 
-function NavBar() {
+
+const NavBar = () => {
 
     return (
-        <nav className="navbar" role="navigation" aria-label="main navigation">
-            <div className="navbar-brand">
-                <Link to="/">
-                    <h1 className="logo">Das-Teck</h1>
-                </Link>
-            </div>
-        
-            <div id="navbarBasicExample" className="navbar-menu">
-
-                <div className="navbar-start">
-                    <Link to={`/categoria/Xiaomi`} className="navbar-item navBarTitle">Xiaomi</Link>
+        <nav className="navbar">
+            <Link className="logo" to="/"><h1>Das-Teck<FaReact /></h1></Link>
             
-                    <Link to={`/categoria/Iphone`} className="navbar-item navBarTitle">Iphone</Link>
-
-                    <Link to={`/categoria/Motorola`} className="navbar-item navBarTitle">Motorola</Link>
-
-                    <Link to={`/categoria/Samsung`} className="navbar-item navBarTitle">Samsung</Link>
-
-                    <Link to={`/categoria/Varios`} className="navbar-item navBarTitle">Varios</Link>
-                </div>
-
-                <div className="navbar-end">
-                    <div className="navbar-item">
-                        <CartWidget />
-                    </div>
-                </div>
-
+            <div className="menu">
+                <NavLink className="menu-link" to="/" style={({ isActive }) => ({color: isActive ? "white" : ""})}>Inicio</NavLink>
+                <NavLink className="menu-link" to={`/categoria/Xiaomi`} style={({ isActive }) => ({color: isActive ? "white" : ""})}>Xiaomi</NavLink>
+                <NavLink className="menu-link" to={`/categoria/Iphone`} style={({ isActive }) => ({color: isActive ? "white" : ""})}>Iphone</NavLink>
+                <NavLink className="menu-link" to={`/categoria/Motorola`} style={({ isActive }) => ({color: isActive ? "white" : ""})}>Motorola</NavLink>
+                <NavLink className="menu-link" to={`/categoria/Samsung`} style={({ isActive }) => ({color: isActive ? "white" : ""})}>Samsung</NavLink>
+                <NavLink className="menu-link" to={`/categoria/Varios`} style={({ isActive }) => ({color: isActive ? "white" : ""})}>Varios</NavLink>
+                <CartWidget />
             </div>
         </nav>
     )
