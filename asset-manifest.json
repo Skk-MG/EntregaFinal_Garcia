@@ -1,19 +1,13 @@
 {
   "files": {
-    "main.css": "/PreEntrega2_Garcia/static/css/main.b33eb808.css",
-    "main.js": "/PreEntrega2_Garcia/static/js/main.5f2bf53d.js",
-    "static/media/4.webp": "/PreEntrega2_Garcia/static/media/4.5b48688a9475e31e8eb0.webp",
-    "static/media/2.webp": "/PreEntrega2_Garcia/static/media/2.3477eec2e28af9e50562.webp",
-    "static/media/3.webp": "/PreEntrega2_Garcia/static/media/3.8b310e64d33343f93d18.webp",
-    "static/media/1.webp": "/PreEntrega2_Garcia/static/media/1.9f111f8dd54fdb0d4fe4.webp",
-    "static/media/5.webp": "/PreEntrega2_Garcia/static/media/5.3a038a6afe57af5e91b7.webp",
+    "main.css": "/PreEntrega2_Garcia/static/css/main.3caa1caf.css",
+    "main.js": "/PreEntrega2_Garcia/static/js/main.eb7d545a.js",
     "index.html": "/PreEntrega2_Garcia/index.html",
-    "static/media/cart.svg": "/PreEntrega2_Garcia/static/media/cart.c2c12d233256cff360b0f66a8088cd97.svg",
-    "main.b33eb808.css.map": "/PreEntrega2_Garcia/static/css/main.b33eb808.css.map",
-    "main.5f2bf53d.js.map": "/PreEntrega2_Garcia/static/js/main.5f2bf53d.js.map"
+    "main.3caa1caf.css.map": "/PreEntrega2_Garcia/static/css/main.3caa1caf.css.map",
+    "main.eb7d545a.js.map": "/PreEntrega2_Garcia/static/js/main.eb7d545a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b33eb808.css",
-    "static/js/main.5f2bf53d.js"
+    "static/css/main.3caa1caf.css",
+    "static/js/main.eb7d545a.js"
   ]
 }
