@@ -1,5 +1,5 @@
 {
-  "homepage": "https://skk-mg.github.io/PreEntrega2_Garcia",
+  "homepage": "https://skk-mg.github.io/",
   "name": "preentrega1_garcia",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,8 @@
     "react-scripts": "5.0.1",
     "sweetalert2": "^11.10.1",
     "toastify-js": "^1.12.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^1.3.3"
   },
   "scripts": {
     "predeploy": "npm run build",

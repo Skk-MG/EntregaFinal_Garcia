@@ -19,7 +19,7 @@ const Item = ( {producto} ) => {
             </div>
 
             <div className="containerBoton">
-                <Link className="ver-mas" to={`/item/${producto.id}`}>Ver Detalle</Link>
+                <Link className="verMas" to={`/item/${producto.id}`}>Ver Detalle</Link>
             </div>
         </div>
     )

@@ -14,7 +14,7 @@ function Carrito() {
 
     return (
         <div className="container">
-            <h1 className="main-title">Carrito<BsCart/></h1>
+            <h1 className="mainTitle">Carrito<BsCart/></h1>
 
             <div className="containerTitulosCarrito">
                 <h4>Item</h4>

@@ -47,7 +47,7 @@ export const CartProvider = ( {children} ) => {
     const vaciarCarrito = () => {
         
         Toastify({
-            text: "Productos Eliminados",
+            text: "Carrito Vaciado",
             duration: 1500,
             close: true,
             gravity: "top", 
