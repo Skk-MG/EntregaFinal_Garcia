@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5cb6779.css",
-    "main.js": "/static/js/main.c3d5775c.js",
-    "index.html": "/index.html",
-    "main.e5cb6779.css.map": "/static/css/main.e5cb6779.css.map",
-    "main.c3d5775c.js.map": "/static/js/main.c3d5775c.js.map"
+    "main.css": "/EntregaFinal_Garcia/static/css/main.f230b598.css",
+    "main.js": "/EntregaFinal_Garcia/static/js/main.68159bb3.js",
+    "index.html": "/EntregaFinal_Garcia/index.html",
+    "main.f230b598.css.map": "/EntregaFinal_Garcia/static/css/main.f230b598.css.map",
+    "main.68159bb3.js.map": "/EntregaFinal_Garcia/static/js/main.68159bb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5cb6779.css",
-    "static/js/main.c3d5775c.js"
+    "static/css/main.f230b598.css",
+    "static/js/main.68159bb3.js"
   ]
 }
