@@ -25,7 +25,7 @@ function App() {
                             <Route path="/categoria/:categoria" element={<ItemListContainer />}/>
                             <Route path="/cart" element={<Carrito />}/>
                             <Route path="/checkout" element={<Checkout />}/>
-                            <Route path="/PreEntrega2_Garcia" element={<Inicio />}/>
+                            <Route path="/EntregaFinal_Garcia" element={<Inicio />}/>
                             <Route path="*" element={<h1 className="title is-1">Error 404 Pagina no Encontrada</h1>}/>
                         </Routes>
 

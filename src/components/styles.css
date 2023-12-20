@@ -76,6 +76,7 @@ body {
 .carrito:hover {
     background-color: var(--clr-main);
     color: var(--clr-white);
+    transition: var(--transition);
 }
 
 /*------------------------------ Producto ------------------------------*/
@@ -206,7 +207,7 @@ body {
     font-weight: bold;
 }
 
-.itemCount button, .agregarAlCarrito {
+.itemCount button, .agregarAlCarrito, .iniciarSitio {
     background-color: var(--clr-main);
     border: 0;
     width: 2rem;
@@ -292,7 +293,7 @@ body {
     padding: 1rem;
 }
 
-.botonCarrito:hover {
+.botonCarrito:hover, .iniciarSitio:hover {
     background-color: var(--clr-main-dark);
     transition: var(--transition);
 }
@@ -378,6 +379,10 @@ body {
     place-items: center;
     height: 100vh;
     background-color: var(--clr-main-dark);
+}
+
+.iniciarSitio {
+    padding: 3rem;
 }
 
 /*------------------------------ Media Queries ------------------------------*/
