@@ -48,7 +48,7 @@ const Checkout = () => {
         <form className="formulario" onSubmit={handleSubmit(comprar)}>
 
             <input type="text" required minlength="1" maxlength="25" placeholder="Ingresá tu nombre" {...register("nombre")} />
-            <input type="email" name="email" required minlength="1" maxlength="30" placeholder="Ingresá tu e-mail" {...register("email")} />
+            <input type="email" name="email" required minlength="1" placeholder="Ingresá tu e-mail" {...register("email")} />
             <input type="number" name="number" required minlength="1" maxlength="25" placeholder="Ingresá tu teléfono" {...register("telefono")} />
             
             <div className='containerBotonesEnviar'>
